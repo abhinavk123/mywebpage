@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+  font-family: Montserrat;
+  color:black;
+  font-weight: bold;
+  z-index: -3;
+
+  
+      -webkit-font-smoothing: antialiased;
+
+
+}
+
+#header {
+
+  height: 121px;
+  position: relative;
+ } 
+#logo {
+
+  height: 121px;
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+}
+
+
+a {
+  text-decoration:none;
+  display:inline-block;
+  text-align:center;
+}
+#menu {
+  height:50px;
+  padding: 5px 0;
+  background-color:#F5F5F5;
+}
+.menu1 {
+  hight : 40px;
+  min-width:200px;
+  transition:0.2s;
+  color:black;
+  font-size:0.80em;
+  padding:0px;
+  margn-top:10px;
+  border-righ:0.5px dotted white;
+  font-size: 1em;
+  font-weight: bold;
+  color: grey;
+  font-family: 'Fira Sans', sans-serif;
+  content: ' ▼';
+  padding: 10px 0;
+}
+
+.menu1:hover {
+  
+  border-color:black;
+  border-bottom: 1px solid black;
+  font-weight: normal;  
+}
+
+#main {
+
+  height:321px;
+  width:100%;
+  background-color: white;
+  position: relative;
+
+}
+
+#overlap {
+  background-color:   #F5F5F5;
+  width: 60%;
+  height: 321px;
+  position: absolute;
+  top:0;
+  left:0;
+  transform: translateX(-20%) skew(-20deg); 
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  margin: -50px;
+  left: 20%;
+  color: grey;
+  font-family: Montserrat;
+  font-size: 3em;
+  text-align: center;
+
+}
+
+#t1 {
+  display: none;
+}
+
+#st {
+  display: none;
+}
+
+#tt {
+  display: none;
+}
+
+#ft {
+  display: none;
+}
+#lt {
+  display: none;
+}
+.slider {
+  z-index: -1;
+}
+
+img {
+
+  display: block;
+  position: absolute;
+  left: 60%;
+  width: 400px;
+  height: 321px;
+
+}
+
+#container {
+  background-image:url("../images/bg9.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+#ashead {
+  display: inline-block;
+}
+
+#hiwhead {
+  display: inline-block;
+}
+
+#aboutus {
+  color: black;
+  margin: 7% 18% 7% 4%;
+  font-size: 1.10em;
+  background-color:rgba(192,192,192,0.3);
+  border-radius:20px 0px 20px 0px;
+  box-shadow:7px 7px 10px #35363a;
+}
+
+#howitworks {
+  color: black;
+  margin: 7% 18% 4% 4%;
+  font-size: 1.10em;
+  background-color:rgba(192,192,192,0.3);
+  border-radius:20px 0px 20px 0px;
+  box-shadow:7px 7px 10px #35363a;
+}
+
+#footer {
+  
+  display: inline-block;
+  width: 100%;
+  background-color:#F5F5F5;
+  text-align: center;
+  padding-bottom: 40px;
+  
+    
+}
+
+.bg {
+  padding:40px 40px;
+  -background-color: #F5F5F5;
+  box-shadow:2px 2px 2px 2px #35363a;
+
+}
+
+.c {
+  padding-top :4%;
+  float:left;
+  width: 33.0%;
+}
+
+#last {
+  display: inline-block;
+  width: 100%;
+  background-color:#F5F5F5;
+  text-align: center;
+
+
+}
+
+
+
